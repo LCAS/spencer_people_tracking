@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-perception-mocks
+Section: misc
+Priority: extra
+Maintainer: Dr. Mock <drmock@spencer.eu>
+Build-Depends: debhelper (>= 9.0.0), python-numpy, python-scipy, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-spencer-human-attribute-msgs, ros-kinetic-spencer-tracking-msgs, ros-kinetic-spencer-vision-msgs, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-perception-mocks
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, python-scipy, ros-kinetic-geometry-msgs, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-spencer-human-attribute-msgs, ros-kinetic-spencer-tracking-msgs, ros-kinetic-spencer-vision-msgs
+Description: Perception Mock components for SPENCER
