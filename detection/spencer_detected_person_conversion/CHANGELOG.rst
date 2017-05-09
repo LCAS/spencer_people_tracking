@@ -2,6 +2,11 @@
 Changelog for package spencer_detected_person_conversion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2017-05-09)
+------------------
+* added missing roslib deps
+* Contributors: Marc Hanheide
+
 1.0.1 (2017-05-09)
 ------------------
 * Adding licenses for spencer_detected_person_conversion
