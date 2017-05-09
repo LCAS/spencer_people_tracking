@@ -2,6 +2,9 @@
 Changelog for package spencer_perception_mocks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2017-05-09)
+------------------
+
 1.0.1 (2017-05-09)
 ------------------
 * homogenised all version strings to 1.0.0
