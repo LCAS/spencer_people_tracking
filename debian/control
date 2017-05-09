@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-detected-person-association
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-eigen-conversions, ros-kinetic-message-filters, ros-kinetic-message-generation, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-spencer-tracking-msgs, ros-kinetic-std-msgs, ros-kinetic-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-detected-person-association
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-eigen-conversions, ros-kinetic-message-filters, ros-kinetic-message-runtime, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-spencer-tracking-msgs, ros-kinetic-std-msgs, ros-kinetic-tf-conversions
+Description: Provides C++ nodelets for fusing spencer_tracking_msgs/DetectedPersons messages output by different detectors, associating detected persons with tracked persons, and associating persons detected by a single detector with fused detections in the form of spencer_tracking_msgs/CompositeDetectedPersons messages.
