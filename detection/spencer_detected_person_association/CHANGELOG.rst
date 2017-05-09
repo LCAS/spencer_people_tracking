@@ -2,6 +2,9 @@
 Changelog for package spencer_detected_person_association
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2017-05-09)
+------------------
+
 1.0.1 (2017-05-09)
 ------------------
 * various install targets added that were missing
