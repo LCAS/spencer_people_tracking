@@ -1,0 +1,12 @@
+Source: ros-kinetic-srl-laser-detectors
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-kinetic-catkin, ros-kinetic-eigen-conversions, ros-kinetic-message-filters, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-srl-laser-features, ros-kinetic-srl-laser-segmentation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-srl-laser-detectors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-kinetic-eigen-conversions, ros-kinetic-message-filters, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-srl-laser-features, ros-kinetic-srl-laser-segmentation
+Description: Person detectors for laser range data
