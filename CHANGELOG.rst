@@ -2,6 +2,9 @@
 Changelog for package srl_nearest_neighbor_tracker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2017-05-11)
+------------------
+
 1.0.2 (2017-05-09)
 ------------------
 * added missing roslib deps
