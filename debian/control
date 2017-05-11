@@ -1,0 +1,12 @@
+Source: ros-kinetic-rwth-ground-hog
+Section: misc
+Priority: extra
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, ros-kinetic-catkin, ros-kinetic-image-transport, ros-kinetic-message-filters, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rwth-perception-people-msgs, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-std-msgs
+Homepage: http://www.vision.rwth-aachen.de/
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rwth-ground-hog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, ros-kinetic-image-transport, ros-kinetic-message-filters, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rwth-perception-people-msgs, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-std-msgs
+Description: The ground_hog package
