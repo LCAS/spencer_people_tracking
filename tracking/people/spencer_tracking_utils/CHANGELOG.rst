@@ -2,6 +2,11 @@
 Changelog for package spencer_tracking_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2017-05-11)
+------------------
+* added eigen dep
+* Contributors: Marc Hanheide
+
 1.0.2 (2017-05-09)
 ------------------
 * added missing roslib deps
