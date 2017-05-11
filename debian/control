@@ -1,0 +1,12 @@
+Source: ros-kinetic-srl-laser-features
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-eigen-conversions, ros-kinetic-roscpp, ros-kinetic-roslib
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-srl-laser-features
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-eigen-conversions, ros-kinetic-roscpp, ros-kinetic-roslib
+Description: Features that can be calculated on segments of laser range data, based upon the features described in Matthias Luber's PhD thesis
