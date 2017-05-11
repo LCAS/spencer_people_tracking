@@ -1,0 +1,13 @@
+Source: ros-kinetic-video-to-bagfile
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-rosbag, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-video-to-bagfile
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-rosbag, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy
+Description: Converts video files (e.g.
+ *.mov, *.avi) into ROS bagfiles.
