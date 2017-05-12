@@ -1,0 +1,41 @@
+ros-kinetic-rwth-ground-plane (1.0.5-0xenial) xenial; urgency=high
+
+
+
+ -- Dennis Mitzel <mitzel@umic.rwth-aachen.de>  Fri, 12 May 2017 00:00:00 -0000
+
+ros-kinetic-rwth-ground-plane (1.0.4-0xenial) xenial; urgency=high
+
+
+
+ -- Dennis Mitzel <mitzel@umic.rwth-aachen.de>  Fri, 12 May 2017 00:00:00 -0000
+
+ros-kinetic-rwth-ground-plane (1.0.3-0xenial) xenial; urgency=high
+
+
+
+ -- Dennis Mitzel <mitzel@umic.rwth-aachen.de>  Thu, 11 May 2017 00:00:00 -0000
+
+ros-kinetic-rwth-ground-plane (1.0.2-0xenial) xenial; urgency=high
+
+  * added missing roslib deps
+  * Contributors: Marc Hanheide
+
+ -- Dennis Mitzel <mitzel@umic.rwth-aachen.de>  Tue, 09 May 2017 00:00:00 -0000
+
+ros-kinetic-rwth-ground-plane (1.0.1-0xenial) xenial; urgency=high
+
+  * homogenised all version strings to 1.0.0
+  * various install targets added that were missing
+  * moved headers according to ROS std
+  * added spencer_diagnostics
+  * added missing dep
+  * Updating lots of utility packages to latest version from SPENCER repo. Licenses updated.
+  * Rename ground_plane_really_fixed to ground_plane_fixed
+    Old ground_plane_fixed.launch deleted (was there for historic reasons)
+  * Moving rwth_ground_plane into new 'utils' folder
+  * Contributors: Marc Hanheide, Timm Linder
+
+ -- Dennis Mitzel <mitzel@umic.rwth-aachen.de>  Tue, 09 May 2017 00:00:00 -0000
+
+
