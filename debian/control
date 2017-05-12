@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-social-relations
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), libsvm-dev, python-numpy, python-scipy, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-eigen-conversions, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-spencer-social-relation-msgs, ros-kinetic-spencer-tracking-msgs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-social-relations
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsvm-dev, python-numpy, python-scipy, ros-kinetic-eigen-conversions, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-spencer-social-relation-msgs, ros-kinetic-spencer-tracking-msgs, ros-kinetic-tf
+Description: Calculates various kinds of spencer_social_relation_msgs/SocialRelations from spencer_tracking_msgs/TrackedPersons
