@@ -1,0 +1,13 @@
+Source: ros-kinetic-pcl-people-detector
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-eigen-conversions, ros-kinetic-pcl-conversions, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-spencer-tracking-msgs, ros-kinetic-spencer-vision-msgs, ros-kinetic-tf-conversions, ros-kinetic-visualization-msgs
+Homepage: http://view.pointclouds.org/documentation/tutorials/ground_based_rgbd_people_detection.php#ground-based-rgbd-people-detection
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pcl-people-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-kinetic-cmake-modules, ros-kinetic-eigen-conversions, ros-kinetic-pcl-conversions, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-spencer-tracking-msgs, ros-kinetic-spencer-vision-msgs, ros-kinetic-tf-conversions, ros-kinetic-visualization-msgs
+Description: ROS wrapper for the ground-based people detector from the PCL library, based upon the implementation provided by M.
+ Munaro, F. Basso and E. Menegatti. &quot;Tracking people within groups with RGB-D data&quot;. In Proceedings of the International Conference on Intelligent Robots and Systems (IROS) 2012, Vilamoura (Portugal), 2012.
