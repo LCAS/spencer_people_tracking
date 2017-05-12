@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-tracking-utils
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-eigen-conversions, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-spencer-tracking-msgs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-tracking-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-eigen-conversions, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-spencer-tracking-msgs, ros-kinetic-tf
+Description: Utilities for filtering spencer_tracking_msgs/TrackedPersons output of a person tracker
