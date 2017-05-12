@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-human-attribute-msgs
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-human-attribute-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-std-msgs
+Description: Messages used for Human Attribute Recognition
