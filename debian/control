@@ -1,0 +1,12 @@
+Source: ros-kinetic-srl-nearest-neighbor-tracker
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-eigen-conversions, ros-kinetic-roslib, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-srl-laser-segmentation, ros-kinetic-tf, ros-kinetic-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-srl-nearest-neighbor-tracker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-angles, ros-kinetic-eigen-conversions, ros-kinetic-roslib, ros-kinetic-spencer-diagnostics, ros-kinetic-spencer-tracking-msgs, ros-kinetic-srl-laser-segmentation, ros-kinetic-tf, ros-kinetic-tf-conversions
+Description: Nearest-neighbor person tracker
