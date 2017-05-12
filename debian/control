@@ -1,0 +1,12 @@
+Source: ros-kinetic-track-annotation-tool
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dbus, libqt4-dev, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4, qt4-qmake, ros-kinetic-catkin, ros-kinetic-roslib, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-py, ros-kinetic-rviz, ros-kinetic-spencer-human-attribute-msgs, ros-kinetic-spencer-tracking-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-track-annotation-tool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dbus, libqt4-dev, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4, qt4-qmake, ros-kinetic-roslib, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-py, ros-kinetic-rviz, ros-kinetic-spencer-human-attribute-msgs, ros-kinetic-spencer-tracking-msgs
+Description: Standalone tool and supplementary RViz plugin for annotating person tracks
