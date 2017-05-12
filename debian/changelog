@@ -1,0 +1,35 @@
+ros-kinetic-spencer-leg-detector-wrapper (1.0.5-0xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 12 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-leg-detector-wrapper (1.0.4-0xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Fri, 12 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-leg-detector-wrapper (1.0.3-0xenial) xenial; urgency=high
+
+
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Thu, 11 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-leg-detector-wrapper (1.0.2-0xenial) xenial; urgency=high
+
+  * added missing roslib deps
+  * Contributors: Marc Hanheide
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Tue, 09 May 2017 00:00:00 -0000
+
+ros-kinetic-spencer-leg-detector-wrapper (1.0.1-0xenial) xenial; urgency=high
+
+  * Updating licenses for laser detector, features and segmentation
+  * Add comment to launch file
+  * Adding wrapper package for leg_detector from wg-perception
+  * Contributors: Timm Linder
+
+ -- Timm Linder <linder@cs.uni-freiburg.de>  Tue, 09 May 2017 00:00:00 -0000
+
+
