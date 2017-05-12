@@ -1,0 +1,12 @@
+Source: ros-kinetic-spencer-tracking-metrics
+Section: misc
+Priority: extra
+Maintainer: Timm Linder <linder@cs.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-filters, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-spencer-tracking-msgs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-spencer-tracking-metrics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-filters, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-spencer-tracking-msgs, ros-kinetic-tf
+Description: Wrappers for CLEAR MOT and OSPA (multi-object tracking) metrics which use the SPENCER message definitions
