@@ -2,6 +2,11 @@
 Changelog for package rwth_upper_body_detector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+1.0.10 (2018-04-17)
+------------------
+* Merged some ENRICHME improvements to prevent memory leaks
+
 1.0.9 (2018-01-17)
 ------------------
 
