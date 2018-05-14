@@ -137,10 +137,10 @@ void Detector::ComputeFreespace(const Camera& camera,
                    mat_2D_pos_y.data()[j] = pos_z;
                    //ROS_INFO("data recorded for mat_2D_pos_x, mat_2D_pos_y");
                 }
-                else
-                {
-                   ROS_INFO("upper_body_detector: compute freespace - pos_x:%i/%i, pos_z:%i/%i - out of range!", pos_x,x_bins,pos_z,z_bins);
-                }
+                //else
+                //{
+                //   ROS_DEBUG("upper_body_detector: compute freespace - pos_x:%i/%i, pos_z:%i/%i - out of range!", pos_x,x_bins,pos_z,z_bins);
+                //}
             }
         }
     }
